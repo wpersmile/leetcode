@@ -77,53 +77,6 @@ class SingleList:
         return new_head
 
 
-# s = SingleList()
-# # 先讲链表尾部反转
-# old = self.__head
-# while old is not None:
-#     if s.__head is None:
-#         s.__head = old
-#     else:
-#         old.next = s.__head
-#     if old.next is not None:
-#         old = old.next
-# while self.__head is not None:
-#     if old.next is None:
-#         if s.__head is None:
-#             s.__head = old
-#             old = None
-#             old = self.__head
-#         else:
-#             t = s.__head
-#             while t.next is not None:
-#                 t = t.next
-#             t.next = old
-#     else:
-#         old = old.next
-
-#     if old.next is None:
-#         if s.__head is None:
-#             s.__head = old
-#             old = None
-#         else:
-#             t = s.__head
-#             while t is not None:
-#                 if t.next is None:
-#                     t.next = old
-#                     old = self.__head
-#                     break
-#                 else:
-#                     t = t.next
-#     else:
-#         old = old.next
-# self.__head = s.__head
-
-
-def abc(tt):
-    abc(tt)
-    print(tt)
-
-
 if __name__ == '__main__':
     sig = SingleList()
     sig.append('10')
